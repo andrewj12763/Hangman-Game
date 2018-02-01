@@ -1,0 +1,50 @@
+body {
+	position: relative;
+	width: 100%;
+	height: auto; 
+}
+/* heading */
+header {
+	text-align: center;
+	background-color: #000000;
+}
+h1 {
+	font-size: 5em;
+	color: white;
+}
+/* main content */
+main {
+	background-color: #000000;
+}
+/* instructions */
+.border {
+	border: 3px solid #18fa03;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+/* gameplay area */
+.noose {
+	width:200px;
+	height:200px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* side colum pictures */
+img {
+	width: 200px;
+	height: 500px;
+}
+/* footer */
+footer {
+	text-align: center;
+	background-color: #000000;
+	padding: 2em;
+}
+h4 {
+	font-size: 20px;
+	color: white;
+}
