@@ -17,39 +17,37 @@
 	<!-- game -->
 	<main class="row border">
 
-<!-- noos img -->		
-		<div class="col-xs-2">
-			<img class="border" src="assets/images/hangmans-noose.jpg" alt=hangmans-noose>
-		</div>
-
 <!-- game -->
 		<div class="col-xs-8">
-
 <!-- instructions -->
 			<div class="col-xs-4 border">
 				<h2>Instructions</h2>
 				<ul>
-					<li></li>
-					<li></li>
+					<li>Press any letter to begin.</li>
+					<li>You have 12 guesses to type to correct word</li>
 					<li></li>
 				</ul>
 			</div>
 
 <!-- gameplay	 -->
-			<div class="col-xs-8 border">
+			<div class="col-xs-8 border box">
 				<div class="row">
 					<img class="noose" src="assets/images/noose.png" alt="noose pic">
-					<h2>__  __  __  __  __</h2>
 				</div>
 				<div class="row">
-
+					<div class="container">
+						<div class="row">
+							<div>
+								<p id="right"></p>
+								<p>
+									<span id="remain">12</span> guesses remain
+								</p>
+								<p id="wrong"></p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-
-<!-- noos img -->
-		<div class="col-xs-2">
-			<img class="border" src="assets/images/hangmans-noose.jpg" alt=hangmans-noose>
 		</div>
 	</main>
 
